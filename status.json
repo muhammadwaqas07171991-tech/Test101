@@ -1,0 +1,27 @@
+{
+  "run_date": "2026-10-21",
+  "sample": "12 Aug 2026 (classroom lab sample)",
+  "parameters_checked": 6,
+  "limits_broken": [
+    "pH",
+    "DO",
+    "BOD",
+    "COD",
+    "TN",
+    "TP"
+  ],
+  "bloom_tiers": {
+    "Naedong": "Warning",
+    "Mulgeum": "Warning",
+    "Panmun": "Caution",
+    "Chilseo": "Outbreak"
+  },
+  "tp_trend": {
+    "S": 8,
+    "Z": 1.71,
+    "p_two_tailed": 0.086,
+    "slope_mg_per_L_per_year": 0.0065,
+    "n_years": 5,
+    "verdict": "Not significant at 0.05 (only 5 years of data)"
+  }
+}
